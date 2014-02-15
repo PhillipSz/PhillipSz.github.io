@@ -16,8 +16,8 @@
 
 <body>
 	<header>
-	<a href="index.html"><img id="b"src ="Elementary_ubuntu.gif"></a><!-- -->
-	<h1><a href="index.html">Phillip's Blog</a></h1>
+	<a href="index.html"><img id="b"src ="logo.png"></a><!-- -->
+	<h1><a href="index.html">test</a></h1>
 	</header>
 <!--
 <nav><!--Anfag Menü(Navigation) --
@@ -51,7 +51,7 @@ thats it ! ;)
 <!--Ende mit Seiten inhalt -->
 <!--Beginn "footer" Fußzeile -->
 <footer>
-	<strong>Von Phillip</strong> - <em>test</em><!--<em> ist kursiv-->
+	<strong>Von Phillip</strong> - <em>MGS</em><!--<em> ist kursiv-->
 </footer>
 </body>
 </html>
