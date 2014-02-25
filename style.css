@@ -4,6 +4,7 @@ src: url('Poly.woff');
 font-style: normal;
 font-weight: 400;
 }
+
 @import url(normalize.css);/*Importiert normalize.css nicht von mir,soll alles schöner ausehen lassen ;) */
 html {
     height: 100%;/* */
@@ -23,9 +24,16 @@ html {
     background-image: -ms-linear-gradient(top, rgb(183,245,245) 20%, rgb(255,255,255) 50%);/*für IE */
 }
 
+/*
+@media all and (min-width: 500px) {
+    body {
+    max-width: 70%;
+    }
+}
+*/
 body {
     min-height: 100%;
-    max-width: 70%;
+    max-width: 70%; /* mit Media-Query auf 100 */
     margin: 0 auto;/*Seitenabstand Außen */
     background: rgba(255, 255, 255, 0.5);/* Hintergrund */
     padding: 1%;/*Seitenabstand Innen */
@@ -72,11 +80,11 @@ h3 {
   transition: 300ms all ease;
 }
 #b:hover{/*Logo beim rübergehen */
- transform:rotate(-15deg);/*Drehung um 15 deg nach rechts */
-    -ms-transform:rotate(-15deg); 
-    -moz-transform:rotate(-15deg); 
-    -webkit-transform:rotate(-15deg); 
-    -o-transform:rotate(-15deg); 
+ transform:rotate(-10deg);/*Drehung um 15 deg nach rechts */
+    -ms-transform:rotate(-10deg); 
+    -moz-transform:rotate(-10deg); 
+    -webkit-transform:rotate(-10deg); 
+    -o-transform:rotate(-10deg); 
 }
 /*Von http://webstandard.kulando.de/ Liezens: https://creativecommons.org/licenses/by-sa/3.0/legalcode */
 /*Damit Input-Felder und der Senden Button besser aussehen  */
