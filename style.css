@@ -41,7 +41,7 @@ body {
 }
 h1 {
 	font-family: 'Poly', serif;/*Schriftart von allen h1 elementen */
-	padding-left:20%;
+	padding-left:40%;
 	padding-top:1%;
 	font-size: 350%; /*Schriftgröße */
 	letter-spacing: -1px;/*Buchstabenabstand */
@@ -67,10 +67,10 @@ h3 {
 }
 */
 #b{/*Gilt für das Logo da es die ID b hat */
-  padding:0px;
+  padding:1%;
   width: 100px; 
   height: 100px;
-  padding-bottom:1px;
+  padding-bottom:1%;
   float:left;/*Umfluss Links */
   -webkit-transition: 300ms all ease;/*da mit es beim drüber gehen mit der Maus langsamer bewegt */
   -moz-transition: 300ms all ease;
