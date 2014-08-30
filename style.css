@@ -5,7 +5,7 @@ font-style: normal;
 font-weight: 400;
 }
 
-@import url(normalize.css);/*Importiert normalize.css nicht von mir,soll alles schöner ausehen lassen ;) */
+@import url(normalize.css);/*Importiert normalize.css nicht von mir, soll alles schöner ausehen lassen ;) */
 html {
     height: 100%;/* */
     font-size: 100%;
@@ -24,16 +24,15 @@ html {
     background-image: -ms-linear-gradient(top, rgb(183,245,245) 20%, rgb(255,255,255) 50%);/*für IE */
 }
 
-/*
+
 @media all and (min-width: 500px) {
     body {
     max-width: 70%;
     }
 }
-*/
+
 body {
-    min-height: 100%;
-    max-width: 70%; /* mit Media-Query auf 100 */
+    min-height: 100%; /* 100 für mobile, sonst 70 */
     margin: 0 auto;/*Seitenabstand Außen */
     background: rgba(255, 255, 255, 0.5);/* Hintergrund */
     padding: 1%;/*Seitenabstand Innen */
