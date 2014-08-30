@@ -1,4 +1,4 @@
 PhillipSz.github.io
 ===================
 
-Just a my webpage to play with.
+Just my webpage to play with.
