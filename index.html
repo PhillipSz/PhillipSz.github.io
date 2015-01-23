@@ -1,58 +1,78 @@
 <!DOCTYPE html>
-<html lang="de"><!-- -->
-<head> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Phillip's website">
+    <meta name="author" content="Phillip">
+    <!-- google web app! -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
 
-<meta charset=utf-8><!--Bis <title> nur Metaangaben kann die man so nicht sehen kann-->
-<meta name="author" content="Phillip">
-<meta name="description" content="test">
-<meta name="keywords" content="test">
-<title> test </title>
-<link rel="stylesheet" type="text/css" href="style.css"><!--Verweist aud die css Datei -->
-<!--Damit der IE auf html5 versteht -->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<link rel="shortcut icon" type="image/x-icon" href="icon.ico"><!--Icon oben links -->
-</head>
+    <link rel="icon" href="dist/image/Elementary_ubuntu_192.png">
+    <title>Phillip's website</title>
 
-<body>
-	<header>
-	<a href="index.html"><img id="b"src ="Elementary_ubuntu1.png"></a><!-- -->
-	<h1><a href="index.html">Phillip's Staff</a></h1>
-	</header>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-<nav><!--Anfag Menü(Navigation) -->
-<ul>
-   <li><a href='index.html'><span>Home</span></a></li><!--1 Menüeintrag -->
-   <li class='has-sub '><a href='#'><span>yeah</span></a><!--2 Menüeintrag -->
-      <ul>
-         <li class='has-sub '><a href='#'><span>jap</span></a><!--1 UnterMenüeintrag -->
-            <ul>
-               <li><a href='link'><span>as</span></a></li><!--1 UnterunterMenüeintrag -->
-            </ul>
-         </li>
-</nav>
+    <!-- Custom styles for this template -->
+    <link href="dist/css/my.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Phillip's website</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
 	
-	<!--Beginn mit Seiten inhalt -->
-	<section>
-thats it ! ;)
-	</section>
-<!-- Nur zum Testen 
+	<img alt="ubuntu + elementary" src="dist/image/elementary_ubuntu_neu.gif" class="img-responsive center-block img-circle">
+      
+	<hr>	
+      <footer>
+        <p>&copy; Phillip 2015</p>
+      </footer>
 
-<select>
-<option>Explorer</option>
-<option>Firefox</option>
-<option>Webkit</option>
-</select> -->
+    </div><!--/.container-->
 
-<!--
-<form action="#" method="post">
-   <input type="text" name="Satz"> <br>
-   <input type="submit" value="Senden">	
-<!--Ende mit Seiten inhalt -->
-<!--Beginn "footer" Fußzeile -->
-<footer>
-	<strong>Von Phillip</strong> - <em>test</em><!--<em> ist kursiv-->
-</footer>
-</body>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="dist/js/jquery-1.11.2.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+
+    <!-- <script src="offcanvas.js"></script> -->
+  </body>
 </html>
