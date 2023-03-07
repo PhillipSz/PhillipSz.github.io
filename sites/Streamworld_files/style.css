@@ -1,0 +1,333 @@
+body
+{
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #08445e;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+a:link { text-decoration: none; color: #000; }
+a:visited { text-decoration: none; color: #000; }
+a:active { text-decoration: none; color: #000; }
+a:hover { text-decoration: underline; }
+
+.thlink a:link { text-decoration: none; color: #fff; }
+.thlink a:visited { text-decoration: none; color: #fff; }
+.thlink a:active { text-decoration: none; color: #fff; }
+
+table 
+{ 
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th, tr, td
+{
+  padding: 2px 8px;
+  margin: 0px;
+}
+
+th
+{
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  padding: 6px 0;
+}
+
+#content h1
+{
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+#content h4
+{
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+.genres
+{
+  font-size: 13px;
+  font-style: italic;
+}
+
+.otherLittles
+{
+  font-size: 13px;
+}
+
+#center
+{
+  width: 902px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+#footer
+{
+  width: 902px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #08445e;
+  padding: 5px 20px;
+}
+
+#head
+{
+	width: 870px;
+	margin: 0 auto;
+}
+
+#content
+{
+	width: 870px;
+	margin: 0 auto;
+}
+
+#logo
+{
+  background-image: url("./logo.jpg");
+	width: 589px;
+	height: 195px;
+	display: block;
+	float: left;
+}
+
+#login
+{
+	background-color: #f0f0f6;
+	border: 1px solid #000;
+	width: 210px;
+	float: right;
+	padding: 20px;
+	margin: 5px;
+}
+
+#login a:link { text-decoration: underline; color: #000; }
+#login a:visited { text-decoration: underline; color: #000; }
+#login a:active { text-decoration: underline; color: #000; }
+#login a:hover { text-decoration: none; color: #000; }
+
+#navi
+{
+	margin: 20px auto 0 auto;
+	width: 870px;
+}
+
+.naviButton
+{
+    color: #fff;
+    background-image: url("images/naviButton.png");
+	border-right: 1px solid #fff;
+	width: 143px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	display: block;
+	float: left;
+}
+
+.naviButtonA
+{
+    color: #fff;
+    background-image: url("images/naviButtonHover.png");
+	border-right: 1px solid #fff;
+	width: 146px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	display: block;
+	float: left;
+}
+
+.naviButton:hover { color: #fff; background-image: url("images/naviButtonHover.png"); }
+
+#content
+{
+  width: 870px;
+  margin: 10px auto 0 auto;
+}
+
+.cl-bo
+{
+	clear: both;
+}
+
+#searchInput
+{
+  font-size: 13px;
+  border: 1px solid #000;
+  height: 16px;
+  margin: 2px 3px;
+  float: left;
+}
+
+#searchInputIn
+{
+  color: #8F8F8F;
+  font-size: 12px;
+  border: none;
+  height: 14px;
+  width: 623px;
+  padding-left: 6px;
+}
+
+#searchInputSubmit
+{
+  font-size: 12px;
+  border-left: 1px solid #000;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  height: 16px;
+  width: 154px;
+  padding-left: 6px;
+}
+
+.mainSearch
+{
+  font-size: 14px;
+  background-color: #f0f0f6;
+  border: 1px solid #000;
+  width: 65px;
+  height: 16px;
+  font-weight: bold;
+  padding-left: 6px;
+  margin: 2px 2px;
+  float: left;
+}
+
+.linkSearch
+{
+  font-size: 13px;
+  display: block;
+  border: 1px solid #000;
+  height: 16px;
+  padding: 0 6px;
+  margin: 2px 3px;
+  float: left;
+}
+
+.linkSearchnm
+{
+  font-size: 13px;
+  display: block;
+  border: 1px solid #000;
+  height: 16px;
+  padding: 0 6px;
+  margin: 2px 3px;
+  float: left;
+}
+
+.linkSearchZ
+{
+  font-size: 13px;
+  display: block;
+  border: 1px solid #000;
+  height: 16px;
+  padding: 0 6px;
+  margin: 2px 3px;
+  float: right;
+}
+
+.linkSearchnmIn
+{
+  font-size: 13px;
+  display: block;
+  border: 1px solid #afafaf;
+  height: 16px;
+  padding: 0 6px;
+  margin: 2px 3px;
+  float: left;
+  color: #afafaf;
+}
+
+.linkSearchIn
+{
+  font-size: 13px;
+  display: block;
+  border: 1px solid #afafaf;
+  height: 16px;
+  padding: 0 6px;
+  margin: 2px 3px;
+  float: left;
+  color: #afafaf;
+}
+
+.linkSearch-a
+{
+  background-color: #ffd863;
+  font-size: 13px;
+  display: block;
+  border: 1px solid #000;
+  height: 16px;
+  padding: 0 6px;
+  margin: 2px 3px;
+  float: left;
+}
+
+.linkSearch-anm
+{
+  background-color: #ffd863;
+  font-size: 13px;
+  display: block;
+  border: 1px solid #000;
+  height: 16px;
+  padding: 0 6px;
+  margin: 2px 3px;
+  float: left;
+}
+
+.linkSearch-a:hover
+{
+  background-color: #d0d0d0;
+}
+
+.linkSearch:hover
+{
+  background-color: #ffd863;
+}
+
+.tableTitle
+{
+  font-size: 13px;
+  background-color: #000;
+  padding: 2px 0 2px 6px;
+  color: #fff;
+  height: 16px;
+  width: 858px;
+  margin: 10px 2px 2px 2px;
+}
+
+#coverArea
+{
+  float: left;
+  width: 130px;
+}
+
+#descrArea
+{
+  float: left;
+  width: 590px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+#imdbArea
+{
+  float: left;
+  width: 140px;
+  text-align: center;
+  display: block;
+}
+
+.clear-both
+{
+  clear: both;
+}
