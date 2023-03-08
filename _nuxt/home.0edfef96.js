@@ -1,1 +1,0 @@
-import{s as t,v as e}from"./entry.04b6c014.js";import{u as r}from"./composables.53a590ef.js";import"./app.config.c1167cf8.js";const u=t({__name:"home",setup(o){return r({bodyAttrs:{class:"h-full bg-gray-100"},htmlAttrs:{class:"h-full"}}),(s,a)=>e(s.$slots,"default")}});export{u as default};
