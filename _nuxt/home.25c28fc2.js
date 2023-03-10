@@ -1,1 +1,0 @@
-import{s,v as e}from"./entry.9386e2bf.js";import{u as o}from"./composables.c5324028.js";import"./app.config.01a95ad3.js";const u=s({__name:"home",setup(r){return o({title:"Modco",bodyAttrs:{class:"h-full bg-gray-100"},htmlAttrs:{class:"h-full"}}),(t,a)=>e(t.$slots,"default")}});export{u as default};
