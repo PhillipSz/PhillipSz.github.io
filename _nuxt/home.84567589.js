@@ -1,0 +1,1 @@
+import{s as e,v as o}from"./entry.e4325ea6.js";import{u as s}from"./composables.9a5dc05f.js";import"./app.config.7f295c5b.js";const u=e({__name:"home",setup(r){return s({title:"Modco - Content Moderation",bodyAttrs:{class:"h-full bg-gray-100"},htmlAttrs:{class:"h-full"}}),(t,a)=>o(t.$slots,"default")}});export{u as default};
